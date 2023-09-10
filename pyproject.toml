@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "flask-api-template"
+version = "0.1.0"
+description = "An example of howe to structure APIs with Flask"
+authors = ["David Salter <davidmsalter@me.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Flask = "^2.3.3"
+ephem = "^4.1.4"
+pytest = "^7.4.2"
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.9.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
